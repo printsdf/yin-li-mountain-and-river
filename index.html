@@ -23,15 +23,6 @@
             font-size: 16px;
         }
 
-        #newsletter {
-            background-image: url("img/PixPin_2024-02-26_15-42-05.png");
-            background-repeat: no-repeat;
-            background-position-x: 50%;
-            background-position-y: 0%;
-            background-attachment: scroll;
-            background-size: cover;
-        }
-
         .c34183 {
             display: none;
         }
@@ -167,6 +158,46 @@
             height: 62px;
             width: 62px;
         }
+
+        .c9072 {
+            display: none;
+        }
+
+        .c30253 {
+            color: black;
+            width: 180.5px;
+            height: 161.55999999999995px;
+        }
+
+        .c19175 {
+            color: black;
+            width: 90.5px;
+            height: 81px;
+        }
+
+        .c22861 {
+            color: black;
+            width: 98.5px;
+            height: 72.91399999999999px;
+        }
+
+        .c23447 {
+            color: black;
+            width: 90.5px;
+            height: 74.57px;
+        }
+
+        .c23774 {
+            color: black;
+            width: 106px;
+            height: 78.594px;
+        }
+
+        .c24311 {
+            color: black;
+            width: 134.352px;
+            height: 77px;
+        }
     </style>
     <div><!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -177,9 +208,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <nav class="main-nav"><!-- ***** Logo Start ***** --><a href="index.html" class="logo"><img
-                                    src="img/logo-small-svg.svg"
-                                    alt="Chain App Dev" /></a><!-- ***** Logo End ***** --><!-- ***** Menu Start ***** -->
+                        <nav class="main-nav"><!-- ***** Logo Start ***** --><a href="index.html" class="logo"></a><img
+                            src="img/logo.png"
+                            class="c19175" /><!-- ***** Logo End ***** --><!-- ***** Menu Start ***** -->
                             <ul class="nav">
                                 <li class="scroll-to-section"><a href="#top" class="active">主页</a></li>
                                 <li class="scroll-to-section"><a href="#services">服务</a></li>
@@ -207,7 +238,7 @@
                                     class="fab fa-google-plus"></i></span><span class="icon_title">微信登录</span></a>
                     </div>
                     <div class="centeredText">
-                        <a href="#"><span>或者使用手机登录</span></a>
+                        <span>或者使用邮箱登录</span>
                     </div>
                     <div class="action_btns">
                         <div class="one_half"><a href="#" id="login_form" class="btn">登录</a></div>
@@ -230,8 +261,7 @@
                 <div class="user_register">
                     <form><label>昵称</label><input type="text" /><br /><label>手机号码</label><input
                             type="email" /><br /><label>密码</label><input type="password" /><br />
-                        <div class="checkbox"><input id="send_updates" type="checkbox" /><label
-                                for="send_updates">发送验证码</label></div>
+                        <div class="checkbox"><input id="send_updates" type="checkbox" /><label for="send_updates">发送验证码</label></div>
                         <div class="action_btns">
                             <div class="one_half"><a href="#" class="btn back_btn"><i
                                         class="fa fa-angle-double-left"></i> 返回</a></div>
@@ -309,7 +339,7 @@
                     <div class="col-lg-3">
                         <div class="service-item fourth-service"><img src="img/service-icon-04.png" class="c17408" />
                             <h4>答疑<br /><br /><br /><br /><br /><br /><br /><br /><br /></h4>
-                            <div class="text-button"><a href="index2.html">Read More <i
+                            <div class="text-button"><a href="#contact">Read More <i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                     </div>
@@ -406,14 +436,10 @@
                 </div><!--/.row -->
             </div><!--/column -->
             <div class="col-lg-6">
-                <h2 class="mb-3">    更多活动<br /><br /></h2>
+                <h2 class="mb-3">    线上社群<br /><br /></h2>
                 <div class="row gx-xl-10 gy-6">
                     <div class="col-md-6 col-lg-12 col-xl-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                                        class="uil uil-phone-volume"></i> </div>
-                            </div>
+                        <div class="d-flex flex-row"><img src="img/phone.png" class="c23774" />
                             <div>
                                 <h4 class="mb-1">用户交流/意见反馈</h4>
                                 <p class="mb-0">您的宝贵建议和反馈是我们不断进步的源泉</p>
@@ -421,11 +447,7 @@
                         </div>
                     </div><!--/column -->
                     <div class="col-md-6 col-lg-12 col-xl-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                                        class="uil uil-shield-exclamation"></i> </div>
-                            </div>
+                        <div class="d-flex flex-row"><img src="img/secure.png" class="c23447" />
                             <div>
                                 <h4 class="mb-1">活动预告发布</h4>
                                 <p class="mb-0">手机短信同步发送邀请</p>
@@ -433,11 +455,7 @@
                         </div>
                     </div><!--/column -->
                     <div class="col-md-6 col-lg-12 col-xl-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                                        class="uil uil-laptop-cloud"></i> </div>
-                            </div>
+                        <div class="d-flex flex-row"><img src="img/don'tknow.png" class="c24311" />
                             <div>
                                 <h4 class="mb-1">丰富活动等您体验</h4>
                                 <p class="mb-0">商品直播活动、促销活动、秒杀活动、亲友分享得礼品活动</p>
@@ -445,11 +463,7 @@
                         </div>
                     </div><!--/column -->
                     <div class="col-md-6 col-lg-12 col-xl-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                                        class="uil uil-chart-line"></i> </div>
-                            </div>
+                        <div class="d-flex flex-row"><img src="img/line.png" class="c22861" />
                             <div>
                                 <h4 class="mb-1">专家课堂讲座</h4>
                                 <p class="mb-0">线上养生讲座/科普讲座/医师课堂活动</p>
